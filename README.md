@@ -3,7 +3,7 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Daniels portfolio
+# Neuron portfolio
 
 _29b group website project_
 
@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/29b-grupe-portfolio/
 
-Design: http://www.innovationplans.com/idesign/daniels/particles.html
+Design:[Neuron](http://demo.auburnforest.com/html/neuron/demo/index.html)
 
 ## Project features
 
@@ -27,4 +27,8 @@ Design: http://www.innovationplans.com/idesign/daniels/particles.html
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Žygimantas: [Github](https://github.com/roentgenray)
+Mantvydas: [Github](https://github.com/darkinaz)
+Tomas: [Github](https://github.com/TS-BIT/)
+Vaida: [Github](https://github.com/GrossaiteV)
+
