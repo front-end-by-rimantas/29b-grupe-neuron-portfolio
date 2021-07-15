@@ -9,7 +9,7 @@ _29b group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at:  https://front-end-by-rimantas.github.io/29b-grupe-neuron-portfolio/
+Site published at: [Github pages](https://front-end-by-rimantas.github.io/29b-grupe-neuron-portfolio/)
 
 Design:[Neuron](http://demo.auburnforest.com/html/neuron/demo/index.html)
 
