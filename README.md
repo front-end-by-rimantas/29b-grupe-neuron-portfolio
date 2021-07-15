@@ -26,9 +26,14 @@ Design:[Neuron](http://demo.auburnforest.com/html/neuron/demo/index.html)
 - JS import-export
 
 ## Authors
+[Rimantas](https://github.com/belauzas)
 
-Žygimantas: [Github](https://github.com/roentgenray)
-Mantvydas: [Github](https://github.com/darkinaz)
-Tomas: [Github](https://github.com/TS-BIT/)
-Vaida: [Github](https://github.com/GrossaiteV)
+[Žygimantas](https://github.com/roentgenray)
+
+[Mantvydas](https://github.com/darkinaz)
+
+[Tomas](https://github.com/TS-BIT/)
+
+[Vaida](https://github.com/GrossaiteV)
+
 
