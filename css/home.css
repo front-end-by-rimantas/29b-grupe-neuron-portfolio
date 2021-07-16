@@ -21,7 +21,7 @@
     }
     .header-top-row-right{
         text-align: center;
-        justify-content: right;
+        justify-content: flex-end;
         padding: 5px;
         display: flex;
         float: right;
