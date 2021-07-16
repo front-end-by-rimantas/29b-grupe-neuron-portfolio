@@ -31,11 +31,12 @@
      cursor: pointer;
 }
 .header-nav-right {
+    justify-content: flex-end;
     text-align: center;
     display:flex;
     padding: 5px;
     width:50%;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top:-30px;
     cursor: pointer;
 }
