@@ -15,6 +15,54 @@
     /* HEADER TOP START */
     /* HEADER TOP END */
     /* HEADER NAV BAR START */
+
+.header-nav {
+    background: rgb(1,160,251);
+    background: linear-gradient(90deg, rgba(1,160,251,1) 0%, rgba(6,180,179,1) 100%);
+    height: 15vh;
+    width: 100%;
+    display:inline-block;
+}
+.header-nav-left > a {
+     width: 20px;
+     margin-left: 10%;
+     margin-top: 3%;
+     display:inline-block;
+     cursor: pointer;
+}
+.header-nav-right {
+    text-align: center;
+    display:flex;
+    padding: 5px;
+    width:50%;
+    margin-left: 35%;
+    margin-top:-30px;
+    cursor: pointer;
+}
+.nav-menu > a {
+    color:white;
+    font-size: 16px;
+    font-weight:540;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:5px;
+    padding-right: 20px;
+}
+.nav-icons {
+    float:right;
+    font-size: large;
+    padding: 5px;
+    margin-right: 5%;
+    margin-top: -30px;
+}
+.nav-icons a i {
+    color: white;
+    padding-right: 40px;
+}
+
+
+
     /* HEADER NAV BAR END */
 /* HEADER END */
 
