@@ -70,6 +70,24 @@
     /* MAIN BODY #2 START */
     /* MAIN BODY #2 END */
     /* MAIN BODY #3 START */
+.main-body-3{
+    background: linear-gradient(360deg, rgba(95,179,226,1) 22%, rgba(0,255,162,1) 100%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 10vh;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.main-body-3 p{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
     /* MAIN BODY #3 END */
     /* MAIN BODY #4 START */
     /* MAIN BODY #4 END */
