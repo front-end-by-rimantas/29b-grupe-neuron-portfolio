@@ -76,6 +76,33 @@ i {
 /* MAIN BODY #1 START */
 /* MAIN BODY #1 END */
 /* MAIN BODY #2 START */
+.mainbody2container {
+    width: 100%;
+    display: flex;
+}
+
+.mainbody2container .left-col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 50px;
+}
+
+.mainbody2container .right-col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 50px;
+}
+
+.mainbody2img {
+    background-image: url(../assets/images/main_images/about-video-part.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
 /* MAIN BODY #2 END */
 /* MAIN BODY #3 START */
 /* MAIN BODY #3 END */
