@@ -12,51 +12,59 @@
 /* CUSTOM HOME PAGE STYLE BELOW THIS COMMENT LINE */
 
 /* HEADER START */
-    /* HEADER TOP START */
-    .header-top{
-         background: linear-gradient(90deg, rgba(95,179,226,1) 22%, rgba(0,255,162,1) 100%); /*placeholder */
-        height: 5vh;
-        width: 100%;
-        
-    }
-    .header-top-row-right{
-        text-align: center;
-        justify-content: flex-end;
-        padding: 5px;
-        display: flex;
-        float: right;
-        width: 40%;
-        margin-top: 10px;
-        column-gap: 25px;
-        line-height: 15px;
-        margin-right: 10%;
-    }
-    .header-top-row-left{
-        padding: 5px;
-        display: flex;
-        float: left;
-        width: 40%;
-        margin-top: 10px;
-        margin-left:10%;
-        text-align: center;
-        justify-content: left;
-        column-gap: 15px;
-        line-height: 15px;
-    }
-    .header-top-row-left a, i{
-        text-decoration: none;
-        color: white;
+/* HEADER TOP START */
+.header-top {
+    background: linear-gradient(90deg, rgba(95, 179, 226, 1) 22%, rgba(0, 255, 162, 1) 100%);
+    /*placeholder */
+    height: 5vh;
+    width: 100%;
 
-    }
-    .header-divider{
-        border: 1px solid #ccc;
-        display: flex;
-    }
-    .header-top-row-right a{
-        text-decoration: none;
-        color: white;
-        
-    }
+}
+
+.header-top-row-right {
+    text-align: center;
+    justify-content: flex-end;
+    padding: 5px;
+    display: flex;
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+    column-gap: 25px;
+    line-height: 15px;
+    margin-right: 10%;
+}
+
+.header-top-row-left {
+    padding: 5px;
+    display: flex;
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10%;
+    text-align: center;
+    justify-content: left;
+    column-gap: 15px;
+    line-height: 15px;
+}
+
+.header-top-row-left a,
+i {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-divider {
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.header-top-row-right a {
+    text-decoration: none;
+    color: white;
+
+}
+
     /* HEADER TOP END */
     /* HEADER NAV BAR START */
 
@@ -106,38 +114,66 @@
     padding-right: 40px;
 }
 
-
+/* HEADER TOP END */
+/* HEADER NAV BAR START */
 /* HEADER NAV BAR END */
 /* HEADER END */
 
 /* MAIN BODY START */
-    /* LANDING SLIDE START */
-    /* LANDING SLIDE END */
-    /* MAIN BODY #1 START */
-    /* MAIN BODY #1 END */
-    /* MAIN BODY #2 START */
-    /* MAIN BODY #2 END */
-    /* MAIN BODY #3 START */
-    /* MAIN BODY #3 END */
-    /* MAIN BODY #4 START */
-    /* MAIN BODY #4 END */
-    /* MAIN BODY #5 START */
-    /* MAIN BODY #5 END */
-    /* MAIN BODY #6 START */
-    /* MAIN BODY #6 END */
-    /* MAIN BODY #7 START */
-    /* MAIN BODY #7 END */
-    /* MAIN BODY #8 START */
-    /* MAIN BODY #8 END */
-    /* MAIN BODY #9 START */
-    /* MAIN BODY #9 END */
-    /* MAIN BODY #10 START */
-    /* MAIN BODY #10 END */
+/* LANDING SLIDE START */
+/* LANDING SLIDE END */
+/* MAIN BODY #1 START */
+/* MAIN BODY #1 END */
+/* MAIN BODY #2 START */
+.mainbody2container {
+    width: 100%;
+    display: flex;
+}
+
+.mainbody2container .left-col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 50px;
+}
+
+.mainbody2container .right-col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 50px;
+}
+
+.mainbody2img {
+    background-image: url(../assets/images/main_images/about-video-part.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+/* MAIN BODY #2 END */
+/* MAIN BODY #3 START */
+/* MAIN BODY #3 END */
+/* MAIN BODY #4 START */
+/* MAIN BODY #4 END */
+/* MAIN BODY #5 START */
+/* MAIN BODY #5 END */
+/* MAIN BODY #6 START */
+/* MAIN BODY #6 END */
+/* MAIN BODY #7 START */
+/* MAIN BODY #7 END */
+/* MAIN BODY #8 START */
+/* MAIN BODY #8 END */
+/* MAIN BODY #9 START */
+/* MAIN BODY #9 END */
+/* MAIN BODY #10 START */
+/* MAIN BODY #10 END */
 /* MAIN BODY END */
 
 /* FOOTER START */
-    /* FOOTER TOP START */
-    /* FOOTER TOP END */
-    /* FOTTER BOTTOM START */
-    /* FOOTER BOTTOM END */
+/* FOOTER TOP START */
+/* FOOTER TOP END */
+/* FOTTER BOTTOM START */
+/* FOOTER BOTTOM END */
 /* FOOTER END */
