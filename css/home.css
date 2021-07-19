@@ -169,10 +169,10 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin-top: -300px; /*fix this*/
 }
 .sponsors-img{
     display: flex;
-    background-color: red;
     width: 70%;
     flex-wrap: wrap;
     flex-direction: row;
@@ -188,8 +188,7 @@ i {
     background-image: url(../assets/images/main_images/partner-bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
-    z-index: -2;
+    height: 600px;
 }
 /* MAIN BODY #7 END */
 /* MAIN BODY #8 START */
