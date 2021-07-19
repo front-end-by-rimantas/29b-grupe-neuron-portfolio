@@ -162,6 +162,35 @@ i {
 /* MAIN BODY #6 START */
 /* MAIN BODY #6 END */
 /* MAIN BODY #7 START */
+.main-body-7 .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors-img{
+    display: flex;
+    background-color: red;
+    width: 70%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 75px;
+}
+.sponsors{
+    margin-top: 50px;
+}
+.main-body-7-bg{
+    background-image: url(../assets/images/main_images/partner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    z-index: -2;
+}
 /* MAIN BODY #7 END */
 /* MAIN BODY #8 START */
 /* MAIN BODY #8 END */
