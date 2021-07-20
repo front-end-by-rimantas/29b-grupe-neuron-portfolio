@@ -12,10 +12,10 @@
 /* CUSTOM HOME PAGE STYLE BELOW THIS COMMENT LINE */
 
 /* HEADER START */
-    /* HEADER TOP START */
-    /* HEADER TOP END */
-    /* HEADER NAV BAR START */
-    /* HEADER NAV BAR END */
+/* HEADER TOP START */
+/* HEADER TOP END */
+/* HEADER NAV BAR START */
+/* HEADER NAV BAR END */
 /* HEADER END */
 
 /* MAIN BODY START */
@@ -27,14 +27,15 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex; /*pakeitimas*/
+    display: flex;
+    /*pakeitimas*/
 }
 
 .landing .col-left {
-    display: flex;  
-    flex-direction: column;  
+    display: flex;
+    flex-direction: column;
     margin-top: 350px;
-    width: 100%;  
+    width: 100%;
 }
 
 .landing .col-left h1 {
@@ -48,9 +49,9 @@
 }
 
 .landing .col-right {
-    display: flex;  
+    display: flex;
     margin-top: 280px;
-    width: 50%;  
+    width: 50%;
     column-gap: 50px;
 }
 
@@ -58,33 +59,32 @@
     margin-top: 100px;
 }
 
-
-    /* LANDING SLIDE END */
-    /* MAIN BODY #1 START */
-    /* MAIN BODY #1 END */
-    /* MAIN BODY #2 START */
-    /* MAIN BODY #2 END */
-    /* MAIN BODY #3 START */
-    /* MAIN BODY #3 END */
-    /* MAIN BODY #4 START */
-    /* MAIN BODY #4 END */
-    /* MAIN BODY #5 START */
-    /* MAIN BODY #5 END */
-    /* MAIN BODY #6 START */
-    /* MAIN BODY #6 END */
-    /* MAIN BODY #7 START */
-    /* MAIN BODY #7 END */
-    /* MAIN BODY #8 START */
-    /* MAIN BODY #8 END */
-    /* MAIN BODY #9 START */
-    /* MAIN BODY #9 END */
-    /* MAIN BODY #10 START */
-    /* MAIN BODY #10 END */
+/* LANDING SLIDE END */
+/* MAIN BODY #1 START */
+/* MAIN BODY #1 END */
+/* MAIN BODY #2 START */
+/* MAIN BODY #2 END */
+/* MAIN BODY #3 START */
+/* MAIN BODY #3 END */
+/* MAIN BODY #4 START */
+/* MAIN BODY #4 END */
+/* MAIN BODY #5 START */
+/* MAIN BODY #5 END */
+/* MAIN BODY #6 START */
+/* MAIN BODY #6 END */
+/* MAIN BODY #7 START */
+/* MAIN BODY #7 END */
+/* MAIN BODY #8 START */
+/* MAIN BODY #8 END */
+/* MAIN BODY #9 START */
+/* MAIN BODY #9 END */
+/* MAIN BODY #10 START */
+/* MAIN BODY #10 END */
 /* MAIN BODY END */
 
 /* FOOTER START */
-    /* FOOTER TOP START */
-    /* FOOTER TOP END */
-    /* FOTTER BOTTOM START */
-    /* FOOTER BOTTOM END */
+/* FOOTER TOP START */
+/* FOOTER TOP END */
+/* FOTTER BOTTOM START */
+/* FOOTER BOTTOM END */
 /* FOOTER END */
