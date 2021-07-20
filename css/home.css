@@ -124,6 +124,45 @@ i {
 
 /* MAIN BODY START */
 /* LANDING SLIDE START */
+.landing {
+    min-height: 100vh;
+    background-color: #05B5B3;
+    background-image: url(../assets/images/main_images/Electric\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    /*pakeitimas*/
+}
+
+.landing .col-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+    width: 100%;
+}
+
+.landing .col-left h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.landing .col-left p {
+    font-size: 25px;
+    color: #fff;
+}
+
+.landing .col-right {
+    display: flex;
+    margin-top: 280px;
+    width: 50%;
+    column-gap: 50px;
+}
+
+.mechanics {
+    margin-top: 100px;
+}
+
 /* LANDING SLIDE END */
 /* MAIN BODY #1 START */
 /* MAIN BODY #1 END */
