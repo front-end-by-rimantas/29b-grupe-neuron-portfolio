@@ -202,16 +202,17 @@ i {
 /* MAIN BODY #5 START */
 /* MAIN BODY #5 END */
 /* MAIN BODY #6 START */
-.main-body-6-container {
+.main-body-6 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 50px;  /*placeholder*/
 }
 
-.main-body-6 {
+.main-body-6-bg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -223,7 +224,7 @@ i {
     background-color: white;
     border: 1px solid white;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 5px 5px 10px;
     /*remove after*/
 }
 
@@ -238,7 +239,7 @@ i {
 }
 
 .main-body-6-left-col i {
-    color: black;
+    background-image: linear-gradient(0deg, #01a0f9, #09c778);
     font-size: 250px;
 }
 
