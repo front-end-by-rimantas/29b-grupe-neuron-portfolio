@@ -1,0 +1,25 @@
+.services {
+    padding: 60px 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services > .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: #ccc;
+}
+
+.services > .title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.services > .description {
+    font-size: 18px;
+}
+

@@ -8,6 +8,7 @@
 /* components */
 @import './components/button.css';
 @import './components/form.css';
+@import './components/ocservices.css';
 
 /* CUSTOM HOME PAGE STYLE BELOW THIS COMMENT LINE */
 
@@ -72,6 +73,13 @@
     /* MAIN BODY #3 START */
     /* MAIN BODY #3 END */
     /* MAIN BODY #4 START */
+
+.ocserv {
+    text-align: center;
+    font-size: 45px;
+    background-color: #fff8ff;   
+} 
+
     /* MAIN BODY #4 END */
     /* MAIN BODY #5 START */
     /* MAIN BODY #5 END */
