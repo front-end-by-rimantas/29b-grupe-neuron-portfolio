@@ -21,17 +21,21 @@
 /* MAIN BODY START */
 /* LANDING SLIDE START */
 .landing {
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: #05B5B3;
     background-image: url(../assets/images/main_images/Electric\ background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex; /*pakeitimas*/
 }
 
 .landing .col-left {
+    display: flex;  /*pakeitimas*/
+    flex-direction: column;   /*pakeitimas*/
     margin-top: 280px;
     margin-left: 5px;   
+    width: 100%;  /*pakeitimas*/
 }
 
 .landing .col-left h1 {
@@ -44,11 +48,11 @@
     color: #fff;
 }
 
-
 .landing .col-right {
+    display: flex;   /*pakeitimas*/
     margin-top: 280px;
     margin-right: 0px;
-    margin-inline: 10px;
+    width: 45%;  /*pakeitimas*/
 }
 
 
