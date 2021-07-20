@@ -7,6 +7,39 @@
 
 /* MAIN BODY START */
     /* LANDING SLIDE START */
+    .btn-left {
+        margin-top: 45px;
+        display: inline-block;
+        padding: 15px 35px;
+        background-color: #fff;
+        color: #05B5B3;
+        border: 1px solid #fff;
+        border-radius: 16px;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .btn-left:hover {
+        background-color: #05B5B3;
+        color: #fff;
+    }
+
+    .btn-right {
+        margin-top: 45px;
+        display: inline-block;
+        padding: 15px 35px;
+        background-color: #05B5B3;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 16px;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .btn-right:hover {
+        background-color: #fff;
+        color: #05B5B3;
+    }
     /* LANDING SLIDE END */
     /* MAIN BODY #1 START */
     /* MAIN BODY #1 END */

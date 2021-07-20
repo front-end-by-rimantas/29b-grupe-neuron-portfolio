@@ -19,10 +19,39 @@
 /* HEADER END */
 
 /* MAIN BODY START */
-    /* LANDING SLIDE START */
-.container {
-    background: #82FCFF;
+/* LANDING SLIDE START */
+.landing {
+    min-height: 100vh;
+    background-color: #05B5B3;
+    background-image: url(../assets/images/main_images/Electric\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+.landing .col-left {
+    margin-top: 280px;
+    margin-left: 5px;   
+}
+
+.landing .col-left h1 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.landing .col-left p {
+    font-size: 27px;
+    color: #fff;
+}
+
+
+.landing .col-right {
+    margin-top: 280px;
+    margin-right: 0px;
+    margin-inline: 10px;
+}
+
+
     /* LANDING SLIDE END */
     /* MAIN BODY #1 START */
     /* MAIN BODY #1 END */
