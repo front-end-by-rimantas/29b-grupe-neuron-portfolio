@@ -243,9 +243,7 @@ i {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    /*placeholder*/
+    margin-bottom: -21vh;
 }
 
 .main-body-6-bg {
@@ -262,9 +260,8 @@ i {
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px;
-    z-index: 0;
-    /*remove after if needed*/
+    box-shadow: 0 0 10px 0;
+    z-index: -0;
 }
 
 .main-body-6-left-col {
@@ -316,7 +313,7 @@ i {
 }
 
 .main-body-6-right-col input {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .title-style::before {
@@ -340,8 +337,6 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: -350px;
-    /*!!!!!!!!!!!!!!!fix this*/
 }
 
 .sponsors-img {
@@ -353,8 +348,8 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
-    column-count: 2;
     column-gap: 75px;
+    margin-top: 12vh;
 }
 
 .sponsors {
@@ -366,7 +361,7 @@ i {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    min-height: 40vh;
+    min-height: 45vh;
 }
 
 /* MAIN BODY #7 END */
