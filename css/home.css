@@ -208,9 +208,7 @@ i {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    /*placeholder*/
+    margin-bottom: -20vh;
 }
 
 .main-body-6-bg {
@@ -227,9 +225,8 @@ i {
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 0 0 10px 0;
     z-index: 0;
-    /*remove after if needed*/
 }
 
 .main-body-6-left-col {
@@ -302,8 +299,7 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: -400px;
-    /*fix this*/
+    margin-top: -30vh;
 }
 
 .sponsors-img {
