@@ -255,7 +255,6 @@ i {
     font-size: 40px;
     min-width: 300px;
     width: auto;
-    position: relative;
 }
 
 .main-body-6-right-col {
@@ -278,19 +277,6 @@ i {
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-
-}
-
-.test:after{
-    content: "";
-    position: absolute;
-    width: 150px;
-    height: 10px;
-    color: red;
-    background: linear-gradient(
-90deg, #01a0f9 45%, #09c778 60%);
-    top: 35px;
-    z-index: -1;
 }
 
 /* MAIN BODY #6 END */
