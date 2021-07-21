@@ -295,6 +295,42 @@ i {
 
 /* MAIN BODY #6 END */
 /* MAIN BODY #7 START */
+.main-body-7 .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    /*fix this*/
+}
+
+.sponsors-img {
+    display: flex;
+    max-width: 70%;
+    min-width: 20%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+    column-gap: 75px;
+}
+
+.sponsors {
+    margin-top: 50px;
+}
+
+.main-body-7-bg {
+    background-image: url(../assets/images/main_images/partner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 40vh;
+}
+
 /* MAIN BODY #7 END */
 /* MAIN BODY #8 START */
 /* MAIN BODY #8 END */
