@@ -208,7 +208,7 @@ i {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    margin-bottom: -20vh;
+    margin-bottom: -21vh;
 }
 
 .main-body-6-bg {
@@ -277,7 +277,7 @@ i {
     position: relative;
 }
 .main-body-6-right-col input{
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .title-style::before {   /* reiktu perkelti prie globaliu klasiu*/
@@ -311,7 +311,6 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
-    column-count: 2;
     column-gap: 75px;
 }
 
@@ -324,9 +323,8 @@ i {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    min-height: 40vh;
+    min-height: 45vh;
 }
-
 /* MAIN BODY #7 END */
 /* MAIN BODY #8 START */
 /* MAIN BODY #8 END */
