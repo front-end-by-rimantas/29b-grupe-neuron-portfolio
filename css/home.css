@@ -228,6 +228,7 @@ i {
     border: 1px solid white;
     border-radius: 10px;
     box-shadow: 5px 5px 10px;
+    z-index: 0;
     /*remove after if needed*/
 }
 
@@ -266,7 +267,6 @@ i {
     align-items: center;
     width: 60%;
     height: 200px;
-    position: relative;
 }
 
 .main-body-6-text {
@@ -277,7 +277,18 @@ i {
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
 }
+
+.title-style::before {   /* reiktu perkelti prie globaliu klasiu*/
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
+    top: 30px;
+    z-index: -1;     /*teviniam  elemente reiktu z-index: 0;*/
+} 
 
 /* MAIN BODY #6 END */
 /* MAIN BODY #7 START */
