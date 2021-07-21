@@ -60,6 +60,16 @@
 /* MAIN BODY #5 START */
 /* MAIN BODY #5 END */
 /* MAIN BODY #6 START */
+.main-body-6 button{
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-image: linear-gradient(0deg, #09c778, #01a0f9);
+}
+.main-body-6 button i{
+    font-size: 20px;
+}
 /* MAIN BODY #6 END */
 /* MAIN BODY #7 START */
 /* MAIN BODY #7 END */

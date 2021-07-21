@@ -210,8 +210,135 @@ i {
 /* MAIN BODY #5 START */
 /* MAIN BODY #5 END */
 /* MAIN BODY #6 START */
+.main-body-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /*placeholder*/
+}
+
+.main-body-6-bg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    min-width: 70vw;
+    height: auto;
+    min-height: 30vh;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    z-index: 0;
+    /*remove after if needed*/
+}
+
+.main-body-6-left-col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.main-body-6-left-col i {
+    padding-top: 20px;
+    font-size: 200px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /*chrome*/
+    color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(0deg, #09c778, #01a0f9);
+}
+
+.main-body-6-right-col h2 {
+    font-size: 40px;
+    min-width: 300px;
+    width: auto;
+}
+
+.main-body-6-right-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+}
+
+.main-body-6-text {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.main-body-6-right-col input{
+    font-size: 30px;
+}
+
+.title-style::before {   /* reiktu perkelti prie globaliu klasiu*/
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
+    top: 30px;
+    z-index: -1;     /*teviniam  elemente reiktu z-index: 0;*/
+} 
+
 /* MAIN BODY #6 END */
 /* MAIN BODY #7 START */
+.main-body-7 .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    /*fix this*/
+}
+
+.sponsors-img {
+    display: flex;
+    max-width: 70%;
+    min-width: 20%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+    column-gap: 75px;
+}
+
+.sponsors {
+    margin-top: 50px;
+}
+
+.main-body-7-bg {
+    background-image: url(../assets/images/main_images/partner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 40vh;
+}
+
 /* MAIN BODY #7 END */
 /* MAIN BODY #8 START */
 /* MAIN BODY #8 END */
