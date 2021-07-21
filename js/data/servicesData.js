@@ -1,6 +1,6 @@
 // IMPORT: DATA + COMPONENTS
 
-const servicesData =  [
+const servicesData = [
     {
         icon: 'lamp in head',
         title: 'Virtual Personal Assistants',
@@ -36,6 +36,8 @@ const servicesData =  [
         title: 'Online Fraud Detection',
         description: 'Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional.'
     },
+];
+export { servicesData }
 
 
 
@@ -43,4 +45,3 @@ const servicesData =  [
 
 
 
-]

@@ -2,9 +2,21 @@
     padding: 60px 20px;
     margin-top: 30px;
     margin-bottom: 20px;
-    text-align: center;
     background-color: #fff;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    
 }
+
+.services:hover {
+    background-color: #03A9DB;
+    color: #fff;
+}
+
+
 
 .services > .icon {
     width: 60px;
@@ -22,4 +34,5 @@
 .services > .description {
     font-size: 18px;
 }
+
 
