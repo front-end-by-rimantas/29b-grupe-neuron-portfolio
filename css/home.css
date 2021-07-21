@@ -211,18 +211,20 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: -300px;
+    margin-top: -400px;
     /*fix this*/
 }
 
 .sponsors-img {
     display: flex;
-    width: 70%;
+    max-width: 70%;
+    min-width: 20%;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
+    column-count: 2;
     column-gap: 75px;
 }
 
@@ -234,7 +236,8 @@ i {
     background-image: url(../assets/images/main_images/partner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: auto;
+    min-height: 40vh;
 }
 
 /* MAIN BODY #7 END */
