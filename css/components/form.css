@@ -19,6 +19,29 @@
 /* MAIN BODY #5 START */
 /* MAIN BODY #5 END */
 /* MAIN BODY #6 START */
+.main-body-6-form {
+    display: flex;
+    width: 100%;
+    min-width: 40%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-body-6 input{
+    max-width: 700px;
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgba(1, 160, 249, 0.2);
+}
+
+input:focus{           /*global var*/
+    outline: none
+}
+
 /* MAIN BODY #6 END */
 /* MAIN BODY #7 START */
 /* MAIN BODY #7 END */
