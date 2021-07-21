@@ -279,6 +279,9 @@ i {
     align-items: center;
     position: relative;
 }
+.main-body-6-right-col input{
+    font-size: 30px;
+}
 
 .title-style::before {   /* reiktu perkelti prie globaliu klasiu*/
     content: "";
