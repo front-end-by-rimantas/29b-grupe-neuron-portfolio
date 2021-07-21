@@ -196,6 +196,41 @@ i {
 
 /* MAIN BODY #2 END */
 /* MAIN BODY #3 START */
+.main-body-3 {
+    background: linear-gradient(0deg, #01a0f9, #09c778);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 32vh;
+}
+
+.main-body-3 h2 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+}
+
+.main-body-3 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.number-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+}
+
 /* MAIN BODY #3 END */
 /* MAIN BODY #4 START */
 /* MAIN BODY #4 END */
