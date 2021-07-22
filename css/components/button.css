@@ -79,6 +79,18 @@
 /* MAIN BODY #9 START */
 /* MAIN BODY #9 END */
 /* MAIN BODY #10 START */
+.button button{
+    width: 100%;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 /* MAIN BODY #10 END */
 /* MAIN BODY END */
 
