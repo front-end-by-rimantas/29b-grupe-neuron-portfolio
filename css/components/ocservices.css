@@ -1,29 +1,33 @@
 .services {
-    padding: 55px 30px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding: 50px 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     background-color: #fff;
     text-align: center;
     color: black;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 0.5s;
-    
+    transition: all 0.5s;  
 }
 
 .services:hover {
-    background-color: #03A9DB;
+    background: linear-gradient(330deg, #09c778, #01a0f9);
     color: #fff;
 }
-
 
 
 .services > .icon {
     width: 60px;
     height: 60px;
-    font-size: 30px;
-    background-color: #ccc;
+    font-size: 60px;
+    color: linear-gradient(330deg, #09c778, #01a0f9);
+    transition: all 0.5s;
 }
+.services.icon:hover {
+    color: #fff;
+}
+
+
 
 .services > .title {
     margin-top: 15px;
@@ -32,7 +36,7 @@
 }
 
 .services > .description {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 

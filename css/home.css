@@ -201,9 +201,23 @@ i {
 /* MAIN BODY #4 START */
 
 .ocserv {
+    position: relative;
+    z-index: 0;
     text-align: center;
     font-size: 45px;
-    background-color: #fff8ff;
+    background-color: #eff1f7;
+    /*fff8ff*/
+}
+
+.h-style::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 140px;
+    left: 880px;
+    background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
+    z-index: -1;
 }
 
 /* MAIN BODY #4 END */
