@@ -1,7 +1,9 @@
 const portfolioData = {
     imgPath: './img/portfolio/',
+    maxItems: 6,
+    renderingStrstegy: 'first',
+    /*'random'*/
     list: [
-    
     {
         img: '1.jpg',
         alt: 'Portfolio item',
@@ -44,7 +46,8 @@ const portfolioData = {
         link: '#',
         tags: ['Graphic'],
     },
+]
 
-];
+}
 
 export { portfolioData }
