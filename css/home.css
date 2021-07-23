@@ -388,7 +388,7 @@ i {
     box-shadow: 0 0 10px;
     z-index: -0;
     margin-bottom: 10vh;
-    padding: 40px;
+    padding: 40px 50px 25px;
 }
 
 .main-body-10-title {
@@ -458,6 +458,9 @@ i {
     flex-direction: row;
     column-gap: 50px;
 }
+.name,.phone,.subject,.email{
+    width: 50%;
+}
 .main-body-10-form input {
     border: unset;
     background-color: rgba(255,255,255,0.3);
@@ -467,6 +470,7 @@ i {
     height: 50px;
     line-height: 50px;
     width: 100%;
+    padding: 20px;
 }
 
 .message textarea{
@@ -479,6 +483,7 @@ i {
     line-height: 50px;
     width: 100%;
     height: 180px;
+    padding: 15px;
 }
 
 
