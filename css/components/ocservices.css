@@ -16,19 +16,17 @@
 }
 
 
-.services > .icon {
+.services.icon {
     width: 60px;
     height: 60px;
-    font-size: 60px;
+    font-size: 54px;
     text-align: center;
     color: linear-gradient(330deg, #09c778, #01a0f9);
     transition: all 0.5s;
 }
-.services.icon:hover {
+.services:hover .icon {
     color: #fff;
 }
-
-
 
 .services > .title {
     margin-top: 15px;
