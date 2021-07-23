@@ -81,7 +81,7 @@
 /* MAIN BODY #10 START */
 .button button{
     width: 100%;
-    background: white;
+    background: #fff;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -90,6 +90,10 @@
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.button button:hover{
+    color: linear-gradient(0deg, #09c778, #01a0f9);
 }
 /* MAIN BODY #10 END */
 /* MAIN BODY END */
