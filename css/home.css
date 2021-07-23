@@ -4,6 +4,7 @@
 @import './base/layout.css';
 
 /* 3rd-party */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
 /* components */
 @import './components/button.css';
@@ -323,7 +324,7 @@ i {
     width: 150px;
     height: 10px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
-    top: 30px;
+    top: 38px;
     z-index: -1;
     /*teviniam  elemente reiktu z-index: 0;*/
 }
@@ -373,6 +374,7 @@ i {
 
 .main-body-10 {
     margin-top: 300px;
+    font-family:;
     /*remove later*/
 }
 
@@ -442,7 +444,7 @@ i {
     height: 10px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     z-index: -1;
-    top: 140px;
+    top: 146px;
 }
 
 .main-body-10-right-col {

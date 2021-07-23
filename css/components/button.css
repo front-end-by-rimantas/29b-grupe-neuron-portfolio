@@ -79,8 +79,9 @@
 /* MAIN BODY #9 START */
 /* MAIN BODY #9 END */
 /* MAIN BODY #10 START */
-.button button{
+.main-body-10-button button{
     width: 100%;
+    color:black;
     background: #fff;
     border: none;
     outline: none;
@@ -90,10 +91,12 @@
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: 600;
+    transition: all 1s;
 }
 
-.button button:hover{
-    color: linear-gradient(0deg, #09c778, #01a0f9);
+.main-body-10-button button:hover{
+    color: #09c778;
 }
 /* MAIN BODY #10 END */
 /* MAIN BODY END */
