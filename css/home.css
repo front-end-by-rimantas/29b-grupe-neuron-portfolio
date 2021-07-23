@@ -197,6 +197,41 @@ i {
 
 /* MAIN BODY #2 END */
 /* MAIN BODY #3 START */
+.main-body-3 {
+    background: linear-gradient(0deg, #01a0f9, #09c778);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 32vh;
+}
+
+.main-body-3 h2 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+}
+
+.main-body-3 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.number-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+}
+
 /* MAIN BODY #3 END */
 /* MAIN BODY #4 START */
 
@@ -238,9 +273,7 @@ i {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    /*placeholder*/
+    margin-bottom: -21vh;
 }
 
 .main-body-6-bg {
@@ -257,9 +290,8 @@ i {
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px;
-    z-index: 0;
-    /*remove after if needed*/
+    box-shadow: 0 0 10px 0;
+    z-index: -0;
 }
 
 .main-body-6-left-col {
@@ -309,19 +341,22 @@ i {
     align-items: center;
     position: relative;
 }
-.main-body-6-right-col input{
-    font-size: 30px;
+
+.main-body-6-right-col input {
+    font-size: 22px;
 }
 
-.title-style::before {   /* reiktu perkelti prie globaliu klasiu*/
+.title-style::before {
+    /* reiktu perkelti prie globaliu klasiu*/
     content: "";
     position: absolute;
     width: 150px;
     height: 10px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     top: 30px;
-    z-index: -1;     /*teviniam  elemente reiktu z-index: 0;*/
-} 
+    z-index: -1;
+    /*teviniam  elemente reiktu z-index: 0;*/
+}
 
 /* MAIN BODY #6 END */
 /* MAIN BODY #7 START */
@@ -332,8 +367,6 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: -400px;
-    /*fix this*/
 }
 
 .sponsors-img {
@@ -345,8 +378,8 @@ i {
     align-content: center;
     justify-content: center;
     align-items: center;
-    column-count: 2;
     column-gap: 75px;
+    margin-top: 12vh;
 }
 
 .sponsors {
@@ -358,7 +391,7 @@ i {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    min-height: 40vh;
+    min-height: 45vh;
 }
 
 /* MAIN BODY #7 END */
