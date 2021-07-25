@@ -20,7 +20,6 @@
 /* HEADER TOP START */
 .header-top {
     background: linear-gradient(-41deg, #09c778, #01a0f9);
-    /*placeholder */
     height: 45px;
     width: 100%;
 }
@@ -55,12 +54,12 @@
 i {
     text-decoration: none;
     color: white;
-
 }
 
 .header-divider {
     border-color: #0494e3;
-    opacity: 1;
+    background-color: #0494e3;
+    opacity: 0.4;
 }
 
 .header-top-row-right a {
@@ -73,8 +72,8 @@ i {
 
 .header-nav {
     background: rgb(1, 160, 251);
-    background: linear-gradient(90deg, rgba(1, 160, 251, 1) 0%, rgba(6, 180, 179, 1) 100%);
-    height: 15vh;
+    background: linear-gradient(-41deg, #09c778, #01a0f9);
+    height: 50px;
     width: 100%;
     display: inline-block;
 }
@@ -82,7 +81,7 @@ i {
 .header-nav-left>a {
     width: 20px;
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 10px;
     display: inline-block;
     cursor: pointer;
 }
@@ -91,10 +90,11 @@ i {
     justify-content: flex-end;
     text-align: center;
     display: flex;
-    padding: 5px;
+    flex-direction: row;
     width: 50%;
     margin-left: 30%;
-    margin-top: -30px;
+    margin-top: -20px;
+    line-height: 20px;
 }
 
 .nav-menu>a {
@@ -104,22 +104,22 @@ i {
     line-height: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px;
-    padding-right: 20px;
+    margin-right: 20px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .nav-icons {
     float: right;
     font-size: large;
     padding: 5px;
-    margin-right: 5%;
+    margin-right: 210px;
     margin-top: -30px;
 }
 
 .nav-icons a i {
     color: white;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 /* HEADER NAV BAR END */
@@ -128,21 +128,22 @@ i {
 /* MAIN BODY START */
 /* LANDING SLIDE START */
 .landing {
-    min-height: 100vh;
+    height: 65vh;
+    width: 100%;
     background-color: #05B5B3;
     background-image: url(../assets/images/main_images/Electric\ background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     display: flex;
-    /*pakeitimas*/
+    align-items: center;
 }
 
 .landing .col-left {
     display: flex;
     flex-direction: column;
-    margin-top: 350px;
     width: 100%;
+    margin-top: 100px;
 }
 
 .landing .col-left h1 {
@@ -157,9 +158,12 @@ i {
 
 .landing .col-right {
     display: flex;
-    margin-top: 280px;
     width: 50%;
     column-gap: 50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .mechanics {
@@ -271,6 +275,7 @@ i {
     -webkit-background-clip: text;
     /*chrome*/
 }
+
 /* MAIN BODY #2 END */
 /* MAIN BODY #3 START */
 .main-body-3 {
@@ -312,12 +317,15 @@ i {
 /* MAIN BODY #4 START */
 
 .ocserv {
-    position: relative;
-    z-index: 0;
     text-align: center;
     font-size: 45px;
     background-color: #eff1f7;
     /*fff8ff*/
+}
+
+.h-style {
+    position: relative;
+    z-index: 0;
 }
 
 .h-style::before {
@@ -325,8 +333,8 @@ i {
     position: absolute;
     width: 150px;
     height: 10px;
-    top: 140px;
-    left: 800px;
+    top: 34px;
+    left: 470px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     z-index: -1;
 }
@@ -342,12 +350,16 @@ i {
 /* MAIN BODY #4 END */
 /* MAIN BODY #5 START */
 .ocproj {
-    position: relative;
-    z-index: 0;
+
     text-align: center;
     font-size: 50px;
     background-color: #fff;
     /*fff8ff*/
+}
+
+.hstyle {
+    position: relative;
+    z-index: 0;
 }
 
 .hstyle::before {
@@ -355,8 +367,8 @@ i {
     position: absolute;
     width: 150px;
     height: 10px;
-    top: 136px;
-    left: 800px;
+    top: 32px;
+    left: 470px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     z-index: -1;
 }
@@ -499,16 +511,16 @@ i {
 /* MAIN BODY #10 START */
 
 .main-body-10 {
-    margin-top: 300px;
-    /*remove later*/
+    margin-top: 300px;/*remove later*/
+    padding: 0;
 }
 
 .main-body-10-left-col-bg {
     width: auto;
-    min-width: 25vw;
+    min-width: 350px;
     height: auto;
-    min-height: 35vh;
-    max-height: 75vh;
+    min-height: 450px;
+    max-height: 650px;
     background-color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -538,11 +550,12 @@ i {
     flex-wrap: wrap;
     font-size: 18px;
 }
-.contact-info h3{
+
+.contact-info h3 {
     margin-bottom: 10px;
 }
 
-.contact-info p{
+.contact-info p {
     line-height: 26px;
 }
 
