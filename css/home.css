@@ -13,6 +13,7 @@
 @import './components/form.css';
 @import './components/ocservices.css';
 @import './components/ocproject.css';
+@import '//css/components/power.css';
 
 
 /* CUSTOM HOME PAGE STYLE BELOW THIS COMMENT LINE */
@@ -173,6 +174,23 @@ i {
 
 /* LANDING SLIDE END */
 /* MAIN BODY #1 START */
+
+
+.left-col1 {
+    
+}
+.top-col {
+
+}
+.bottom-col {
+
+}
+.right-col1 {
+
+}
+.learn-btn {
+
+}
 /* MAIN BODY #1 END */
 /* MAIN BODY #2 START */
 .main-body-2 {
