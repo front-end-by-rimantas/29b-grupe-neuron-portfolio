@@ -8,6 +8,7 @@
 
 /* components */
 @import './components/button.css';
+@import './components/gallery.css';
 @import './components/form.css';
 @import './components/ocservices.css';
 @import './components/ocproject.css';
@@ -325,7 +326,7 @@ i {
     width: 150px;
     height: 10px;
     top: 140px;
-    left: 880px;
+    left: 800px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     z-index: -1;
 }
@@ -349,13 +350,13 @@ i {
     /*fff8ff*/
 }
 
-.h-style::before {
+.hstyle::before {
     content: '';
     position: absolute;
     width: 150px;
     height: 10px;
-    top: 140px;
-    left: 880px;
+    top: 136px;
+    left: 800px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     z-index: -1;
 }
