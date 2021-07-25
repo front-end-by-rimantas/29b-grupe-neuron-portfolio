@@ -1,11 +1,3 @@
-// IMPORT: DATA + COMPONENTS
-
-import { Services } from "./components/services/Services.js";
-import { servicesData } from "./data/servicesData.js";
-
-
-// CODE EXECUTION
-
 /* HEADER START */
     /* HEADER TOP START */
     /* HEADER TOP END */
@@ -23,7 +15,6 @@ import { servicesData } from "./data/servicesData.js";
     /* MAIN BODY #3 START */
     /* MAIN BODY #3 END */
     /* MAIN BODY #4 START */
-    new Services('#sevices_block',servicesData);
     /* MAIN BODY #4 END */
     /* MAIN BODY #5 START */
     /* MAIN BODY #5 END */
@@ -45,3 +36,5 @@ import { servicesData } from "./data/servicesData.js";
     /* FOTTER BOTTOM START */
     /* FOOTER BOTTOM END */
 /* FOOTER END */
+
+// export

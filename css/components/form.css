@@ -1,0 +1,109 @@
+/* HEADER START */
+/* HEADER TOP START */
+/* HEADER TOP END */
+/* HEADER NAV BAR START */
+/* HEADER NAV BAR END */
+/* HEADER END */
+
+/* MAIN BODY START */
+/* LANDING SLIDE START */
+/* LANDING SLIDE END */
+/* MAIN BODY #1 START */
+/* MAIN BODY #1 END */
+/* MAIN BODY #2 START */
+/* MAIN BODY #2 END */
+/* MAIN BODY #3 START */
+/* MAIN BODY #3 END */
+/* MAIN BODY #4 START */
+/* MAIN BODY #4 END */
+/* MAIN BODY #5 START */
+/* MAIN BODY #5 END */
+/* MAIN BODY #6 START */
+.main-body-6-form {
+    display: flex;
+    width: 100%;
+    min-width: 40%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-body-6 input{
+    max-width: 700px;
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgba(1, 160, 249, 0.2);
+}
+
+input:focus{           /*global var*/
+    outline: none
+}
+
+/* MAIN BODY #6 END */
+/* MAIN BODY #7 START */
+/* MAIN BODY #7 END */
+/* MAIN BODY #8 START */
+/* MAIN BODY #8 END */
+/* MAIN BODY #9 START */
+/* MAIN BODY #9 END */
+/* MAIN BODY #10 START */
+.main-body-10-form{
+    width: 100%;
+    display: block;
+}
+.first-row, .second-row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.name,.phone,.subject,.email{
+    width: 50%;
+}
+.main-body-10-form input {
+    border: unset;
+    background-color: rgba(255,255,255,0.3);
+    margin-bottom: 30px;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.message textarea{
+    border: unset;
+    background-color: rgba(255,255,255,0.3);
+    margin-bottom: 30px;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    font-size: 18px;
+}
+.main-body-10 input{
+    color: #fff;
+}
+.main-body-10 textarea{
+    color:#fff;
+}
+
+.main-body-10-form ::placeholder{
+    color: #fff;
+}
+/* MAIN BODY #10 END */
+/* MAIN BODY END */
+
+/* FOOTER START */
+/* FOOTER TOP START */
+/* FOOTER TOP END */
+/* FOTTER BOTTOM START */
+/* FOOTER BOTTOM END */
+/* FOOTER END */
