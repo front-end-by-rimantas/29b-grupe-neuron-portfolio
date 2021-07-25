@@ -54,7 +54,6 @@
 i {
     text-decoration: none;
     color: white;
-
 }
 
 .header-divider {
@@ -129,7 +128,7 @@ i {
 /* MAIN BODY START */
 /* LANDING SLIDE START */
 .landing {
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     background-color: #05B5B3;
     background-image: url(../assets/images/main_images/Electric\ background.jpg);
