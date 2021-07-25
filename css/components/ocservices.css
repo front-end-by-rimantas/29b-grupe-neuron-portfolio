@@ -1,0 +1,41 @@
+.services {
+    padding: 60px 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;  
+}
+
+.services:hover {
+    background: linear-gradient(330deg, #09c778, #01a0f9);
+    color: #fff;
+}
+
+
+.services.icon {
+    width: 60px;
+    height: 60px;
+    font-size: 54px;
+    text-align: center;
+    color: linear-gradient(330deg, #09c778, #01a0f9);
+    transition: all 0.5s;
+}
+.services:hover .icon {
+    color: #fff;
+}
+
+.services > .title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.services > .description {
+    font-size: 15px;
+}
+
+

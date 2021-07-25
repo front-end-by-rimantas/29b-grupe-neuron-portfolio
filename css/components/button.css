@@ -15,7 +15,7 @@
     text-align: center;
     color: #05B5B3;
     border: 1px solid #fff;
-    border-radius: 16px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -33,7 +33,7 @@
     text-align: center;
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 16px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -79,6 +79,25 @@
 /* MAIN BODY #9 START */
 /* MAIN BODY #9 END */
 /* MAIN BODY #10 START */
+.main-body-10-button button{
+    width: 100%;
+    color:black;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all 1s;
+}
+
+.main-body-10-button button:hover{
+    color: #09c778;
+}
 /* MAIN BODY #10 END */
 /* MAIN BODY END */
 
