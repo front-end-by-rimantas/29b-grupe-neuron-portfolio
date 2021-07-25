@@ -74,7 +74,7 @@ i {
 .header-nav {
     background: rgb(1, 160, 251);
     background: linear-gradient(-41deg, #09c778, #01a0f9);
-    height: 100px;
+    height: 50px;
     width: 100%;
     display: inline-block;
 }
@@ -82,7 +82,7 @@ i {
 .header-nav-left>a {
     width: 20px;
     margin-left: 10%;
-    margin-top: 40px;
+    margin-top: 10px;
     display: inline-block;
     cursor: pointer;
 }
@@ -91,10 +91,11 @@ i {
     justify-content: flex-end;
     text-align: center;
     display: flex;
-    padding: 5px;
+    flex-direction: row;
     width: 50%;
     margin-left: 30%;
-    margin-top: -30px;
+    margin-top: -20px;
+    line-height: 20px;
 }
 
 .nav-menu>a {
@@ -104,22 +105,22 @@ i {
     line-height: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px;
-    padding-right: 20px;
+    margin-right: 20px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .nav-icons {
     float: right;
     font-size: large;
     padding: 5px;
-    margin-right: 8%;
+    margin-right: 210px;
     margin-top: -30px;
 }
 
 .nav-icons a i {
     color: white;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 /* HEADER NAV BAR END */
@@ -350,12 +351,16 @@ i {
 /* MAIN BODY #4 END */
 /* MAIN BODY #5 START */
 .ocproj {
-    position: relative;
-    z-index: 0;
+
     text-align: center;
     font-size: 50px;
     background-color: #fff;
     /*fff8ff*/
+}
+
+.hstyle {
+    position: relative;
+    z-index: 0;
 }
 
 .hstyle::before {
@@ -363,8 +368,8 @@ i {
     position: absolute;
     width: 150px;
     height: 10px;
-    top: 136px;
-    left: 800px;
+    top: 32px;
+    left: 470px;
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
     z-index: -1;
 }
