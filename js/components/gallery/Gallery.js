@@ -6,18 +6,23 @@ class Gallery {
         this.DOM = null;
         this.maxItems = 3;
         this.renderingStrategiesOptions = ['first', 'last', 'random'];
-        this.renderingStrategy = this.renderingStrategy    bnbbnnbmnbm;
+        this.renderingStrategy = this.renderingStrategiesOptions[0];
 
         this.init();
     }
 
     init() {
-        //validacijos //logika // events
+        //validacijos 
         if (!this.isValidSelector() ||
         !this.isValidData() ||
         !this.findTargetElement()) {
         return false;
         }
+
+        //logika // events
+
+
+
         return true;
     }
     
@@ -32,20 +37,45 @@ class Gallery {
     isValidData() {
         // this.data turi buti tikras objektas
         if (typeof this.data !== 'object' ||
-            this.data === null ||)
+            this.data === null ||
+            Array.isArray(this.data)) {
+            return false;
+        }
+        //this.data.imgPath turi buti ne tuscias tekstas
+        const imgPath = this.data.imgPath;
+        if (typeof imgPath !== 'string' ||
+            imgPath === '') {
+            return false;
+        }
+
+        // this.data.maxItems turi buti teigiamas sveikas skaicius
+        const maxItems = this.data.maxItems;
+        if (typeof maxItems === 'number' &&
+        isFinite(maxItems) &&
+        maxItems > 0 &&
+        maxItems % 1 === 0) {
+        this.maxItems = maxItems;
+        }
+
+        //this.data.renderingStrategy turi buti ne tuscias tekstas ir priklausyti imanomu strategiju sarasui
+        const renderingStrategy = this.data.renderingStrategy;
+        if (typeof renderingStrategy === 'string' &&
+        renderingStrategy !== '' &&
+        maxItems > 0 &&
+        this.renderingStrategiesOptions.includes(renderingStrategy)) {
+        this.renderingStrategy = this.renderingStrategy
+        }
+        
+        return true;
+
+
+
+
         this.DOM = document.querySelector(this.selector);
     }
 
 /*
-    //this.data.imgPath turi buti ne tuscias tekstas
-    const imgPath = this.data.imgPath;
-    if (typeof this.data !== 'object' ||
-    this.data === null ||)
-
-    // this.data.maxItems turi buti teigiamas sveikas skaicius
-    const imgPath = this.data.imgPath;
-    if (typeof this.data !== 'object' ||
-    this.data === null ||)
+    
 
     //this.data.renderingStrategy turi buti ne tuscias tekstas ir priklausyti imanomoms
 
