@@ -12,7 +12,7 @@ class Gallery {
     }
 
     init() {
-        //validacijos
+        //validacijos //logika // events
         if (!this.isValidSelector() ||
         !this.isValidData() ||
         !this.findTargetElement()) {
@@ -36,7 +36,7 @@ class Gallery {
         this.DOM = document.querySelector(this.selector);
     }
 
-
+/*
     //this.data.imgPath turi buti ne tuscias tekstas
     const imgPath = this.data.imgPath;
     if (typeof this.data !== 'object' ||
@@ -49,15 +49,21 @@ class Gallery {
 
     //this.data.renderingStrategy turi buti ne tuscias tekstas ir priklausyti imanomoms
 
-
+*/
     findTargetElement() {
         this.DOM = document.querySelector(this.selector);
-        if (!this.DOM) {
+        /*if (this.DOM) {
+            return true;
+        } else {
             return false;
         }
+        */
         return !!this.DOM;
     }
 
+    
+
+/*
     // itraukiame tik norimu elementu index'us
     const selectedIndexes = [];
 
@@ -78,7 +84,7 @@ class Gallery {
     }
 
     if()
-
+*/
 }
 /*
 let count = 0;
@@ -97,7 +103,7 @@ const count = this.validItems.length <= this.maxItems ? this.validItems.length :
 */
 
 
-
+/*
 generateFilterTagsHTML() {
     let HTML = '';
 
@@ -118,15 +124,11 @@ generateFilterTagsHTML() {
             tagDOM.addEvent
         }
     }
-
+*/
 
 
 
 }
-
-
-
-
 
 
 export { Gallery }
