@@ -18,11 +18,6 @@ class Gallery {
         !this.findTargetElement()) {
         return false;
         }
-
-        //logika // events
-
-
-
         return true;
     }
     
@@ -41,10 +36,16 @@ class Gallery {
             Array.isArray(this.data)) {
             return false;
         }
-        //this.data.imgPath turi buti ne tuscias tekstas
+        // this.data.imgPath turi buti ne tuscias tekstas
         const imgPath = this.data.imgPath;
         if (typeof imgPath !== 'string' ||
             imgPath === '') {
+            return false;
+        }
+        // this.data.list turi buti ne ne tuscias array (sarasas)
+        const list = this.data.list;
+        if (!Array.isArray(list) ||
+            length === 0) {
             return false;
         }
 
@@ -65,14 +66,28 @@ class Gallery {
         this.renderingStrategiesOptions.includes(renderingStrategy)) {
         this.renderingStrategy = this.renderingStrategy
         }
-        
         return true;
-
-
-
-
-        this.DOM = document.querySelector(this.selector);
     }
+
+
+        //logika // events
+
+    rendrer() {
+        let itemsHTML = '';
+        for (const item of this.data.list) {
+            itemsHTML
+        }
+
+
+        this.DOM.innerHTML = HTML;
+
+    }
+
+    generateContentHTML() {
+        return ``
+    }
+
+
 
 /*
     
