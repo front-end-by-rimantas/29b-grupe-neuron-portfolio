@@ -622,6 +622,36 @@ i {
 
 /* FOOTER START */
 /* FOOTER TOP START */
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5%;
+}
+
+.footer-bg{
+    background-image: url(../assets/images/main_images/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: auto;
+}
+
+.footer-logo{
+    width: 80%;
+}
+
+.about, .workhours, .navigatefooter, .privacyntos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+}
 /* FOOTER TOP END */
 /* FOTTER BOTTOM START */
 /* FOOTER BOTTOM END */
