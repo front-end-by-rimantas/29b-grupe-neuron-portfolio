@@ -748,5 +748,25 @@ a {
 
 /* FOOTER TOP END */
 /* FOTTER BOTTOM START */
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+  padding-top: 40px;
+}
+
+.footer-bg hr{
+  padding-top: 40px;
+  border: none;
+  border-bottom: 1px solid rgba(rgb(172, 98, 98), rgb(53, 179, 53), rgb(112, 112, 138), 1 );
+}
+
+.footer-bottom p{
+  font-size: 20px;
+  color: gray;
+}
 /* FOOTER BOTTOM END */
 /* FOOTER END */
