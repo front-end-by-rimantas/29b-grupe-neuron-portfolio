@@ -77,7 +77,7 @@ i {
   display: inline-block;
 }
 
-.header-nav-left > a {
+.header-nav-left>a {
   width: 20px;
   margin-left: 10%;
   margin-top: 10px;
@@ -96,7 +96,7 @@ i {
   line-height: 20px;
 }
 
-.nav-menu > a {
+.nav-menu>a {
   color: white;
   font-size: 16px;
   font-weight: 540;
@@ -509,7 +509,8 @@ i {
 /* MAIN BODY #10 START */
 
 .main-body-10 {
-  margin-top: 300px; /*remove later*/
+  margin-top: 300px;
+  /*remove later*/
   padding: 0;
 }
 
@@ -643,9 +644,9 @@ i {
 }
 
 .footer-logo {
-  width: 80%;
+  width: 50%;
   padding-top: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .about,
@@ -658,6 +659,12 @@ i {
   align-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
+  font-size: 1.2rem;
+}
+
+
+.about p {
+  margin-bottom: 30px;
 }
 
 .navigatefooter {
@@ -676,8 +683,8 @@ i {
   flex-direction: column;
 }
 
-.navigatefooter>.row{
-    margin-left: -20px;
+.navigatefooter>.row {
+  margin-left: -20px;
 }
 
 .footer i {
@@ -695,12 +702,23 @@ i {
   column-gap: 25px;
 }
 
+.footer h2 {
+  color: black;
+}
+
 .footer h2,
 p,
 a {
   line-height: 30px;
   text-decoration: none;
-  color: black;
+}
+
+.about,
+.workhours,
+.navigatefooter,
+.privacyntos p,
+a {
+  color: gray;
 }
 
 .footer-title {
@@ -716,11 +734,16 @@ a {
   height: 5px;
   background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
   z-index: -1;
-  top: 23px;
+  top: 20px;
 }
 
-.workhours p{
-    margin-bottom: 15px;
+.workhours p {
+  margin-bottom: 15px;
+}
+
+.footer-socials i {
+  padding-left: 14px;
+  padding-top: 12px;
 }
 
 /* FOOTER TOP END */
