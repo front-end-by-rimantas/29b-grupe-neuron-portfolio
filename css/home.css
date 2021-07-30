@@ -759,7 +759,6 @@ a {
 }
 
 .footer-bg hr{
-  padding-top: 40px;
   border: none;
   border-bottom: 1px solid rgba(rgb(172, 98, 98), rgb(53, 179, 53), rgb(112, 112, 138), 1 );
 }
@@ -767,6 +766,10 @@ a {
 .footer-bottom p{
   font-size: 20px;
   color: gray;
+}
+
+.footer-bottom a:hover{
+color:#01a0f9;
 }
 /* FOOTER BOTTOM END */
 /* FOOTER END */
